@@ -1,0 +1,139 @@
+/* 超级矿资源 (http://www.kuaimei56.com)*/
+html {
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+.head-search {
+    display: inline-block;
+    border-width: 20px;
+    padding-bottom: 5px;
+}
+
+.head-search-photo1 {
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 80px;
+    padding-right: 105px;
+}
+
+.head-search-photo2 {
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 101px;
+}
+
+.head-search-title {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.head-search-evm {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.head-search-photo1 img {
+    width: 250px;
+    height: 150px;
+}
+
+.head-search-photo2 img {
+    width: 150px;
+    height: 150px;
+}
+
+.head-search-title h1, .head-search-evm h4 {
+    margin-bottom: 0;
+}
+
+.head-search-title h5, .head-search-evm h5 {
+    margin-top: 10px;
+    color: greenyellow;
+}
+
+.title {
+    height: 42px;
+    border-top: 2px #7d7d7d;
+}
+
+.tab-content{
+    height: 800px;
+}
+.nav-justified {
+    background-color: #04bfc6;
+}
+
+.nav-tabs.nav-justified>li>a{
+    color: black;
+    border-radius: 0;
+}
+
+.hot,.hot1 {
+    display: inline-block;
+    width: 100%;
+    padding-left: 80px;
+}
+
+.hot ul, .hot1 ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+.hot li, .hot1 li {
+    float: left;
+    width: 198px;
+    height: 190px;
+    text-align: center;
+}
+
+.hot li img, .hot1 li img {
+    width: 200px;
+    height: 160px;
+}
+
+.bottom {
+    border-top: 1px solid;
+    padding-top: 3px;
+}
+
+.bottom-about {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 0 0 80px;
+    padding: 0;
+}
+
+.bottom-about li {
+    float: left;
+    width: 300px;
+}
+
+.bottom-about li a {
+    display: block;
+    outline: none;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    font-size: small;
+}
+
+.bottom a:hover {
+    color: #04bfc6;
+}
+
+.footer {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    font-size: smaller;
+}
+
+.footer-part2, .footer-part3 {
+    border-left: 1px solid;
+}
