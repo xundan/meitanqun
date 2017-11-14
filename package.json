@@ -1,0 +1,24 @@
+{
+  "name": "meitanqun",
+  "version": "0.1.0",
+  "description": "标题",
+  "main": "超级矿资源主页.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xundan/meitanqun.git"
+  },
+  "keywords": [
+    "coal",
+    "group",
+    "wechat"
+  ],
+  "author": "qingxinfree",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xundan/meitanqun/issues"
+  },
+  "homepage": "https://github.com/xundan/meitanqun#readme"
+}
