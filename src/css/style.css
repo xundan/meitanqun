@@ -10,7 +10,7 @@ body {
 .head-search {
     display: inline-block;
     border-width: 20px;
-    padding-bottom: 5px;
+    padding: 10px 0 10px 0;
 }
 
 .head-search-photo1 {
@@ -23,7 +23,7 @@ body {
 .head-search-photo2 {
     display: inline-block;
     vertical-align: middle;
-    padding-left: 101px;
+    padding-left: 170px;
 }
 
 .head-search-title {
@@ -62,44 +62,55 @@ body {
     border-top: 2px #7d7d7d;
 }
 
-.tab-content{
-    height: 800px;
+.tab-content {
+    height: 785px;
+    width: 1500px;
 }
+
 .nav-justified {
     background-color: #04bfc6;
 }
 
-.nav-tabs.nav-justified>li>a{
+.nav-tabs.nav-justified > li > a {
     color: black;
     border-radius: 0;
 }
 
-.hot,.hot1 {
+.hot, .hot1, .hot2, .hot3, .hot4 {
     display: inline-block;
     width: 100%;
     padding-left: 80px;
 }
 
-.hot ul, .hot1 ul{
+.hot ul, .hot1 ul, .hot2 ul, .hot3 ul, .hot4 ul {
     list-style-type: none;
     padding: 0;
 }
 
-.hot li, .hot1 li {
+.hot li, .hot1 li, .hot2 li, .hot3 li, .hot4 li {
     float: left;
-    width: 198px;
+    width: 225px;
     height: 190px;
     text-align: center;
 }
 
-.hot li img, .hot1 li img {
+.hot li img, .hot1 li img, .hot2 li img {
     width: 200px;
-    height: 160px;
+    height: 170px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+.hot3 li img, .hot4 li img {
+    width: 208px;
+    height: 170px;
+    padding-top: 15px;
+    padding-bottom: 5px;
 }
 
 .bottom {
     border-top: 1px solid;
-    padding-top: 3px;
+    padding-top: 10px;
 }
 
 .bottom-about {
@@ -132,6 +143,8 @@ body {
     width: 100%;
     text-align: center;
     font-size: smaller;
+    padding: 10px 0 10px 0;
+
 }
 
 .footer-part2, .footer-part3 {
